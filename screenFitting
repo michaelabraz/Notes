@@ -1,0 +1,50 @@
+
+Tip 1) 
+
+Using Bootstrap or a similar framework is recommended, as it provides a lot of components that behave in aesthetically pleasing ways regardless of the screen size. 
+
+Tip 2) Use style tags and media queries inside the file of a specific component (with "!important" if needed), for very rare, custom cases where you want to ONLY change the style of one part of the website or app. For example, if you want to insert a style that you only want to see if the screen is a certain size.
+
+Example:
+
+(source: https://www.elegantthemes.com/blog/resources/when-and-why-to-use-the-style-tag-outside-of-css-stylesheets#:~:text=Because%20stylesheets%20are%20big%2Dpicture,is%20a%20small%2Dscale%20solution)
+
+<style>
+h2, h3, h4 {
+  font-family: "Exo", Arial, sans-serif!important;
+  text-align: right;
+    font-size: 2rem;
+    color: blue;}
+body, p {font-family: "Roboto", Arial, sans-serif!important;
+  font-size: 1.2rem;
+    color: red;
+    background: #000;}
+    </style>
+
+
+Another example:
+
+<style>
+@media (max-width: 767px) {
+
+.white_text {
+    color: #ffffff;
+}
+
+.blue_text {
+    color: #cbe1f3;
+}
+
+.white_background {
+    background-color: #ffffff;
+}
+
+.blue_background {
+    background-color: #003663;
+}
+
+#email_form_a {
+  display:none;
+}
+</style>
+
