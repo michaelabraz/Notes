@@ -1,7 +1,7 @@
 
 Tip 1) 
 
-Using Bootstrap or a similar framework is recommended, as it provides a lot of components that behave in aesthetically pleasing ways regardless of the screen size. 
+Using Bootstrap or a similar framework is recommended, as it provides a lot of components that behave in aesthetically pleasing ways regardless of the screen size (thanks to flexbox). Read more: https://getbootstrap.com/docs/4.0/layout/grid/ 
 
 Tip 2) Use style tags and media queries inside the file of a specific component (with "!important" if needed), for very rare, custom cases where you want to ONLY change the style of one part of the website or app. For example, if you want to insert a style that you only want to see if the screen is a certain size.
 
